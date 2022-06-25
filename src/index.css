@@ -42,3 +42,17 @@
     @apply text-accent;
   }
 }
+#dropBoxText{
+  -webkit-text-stroke: 2px black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#uploadImage{
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.MuiDropzoneArea-root {
+	background-color: transparent !important;
+}
+.MuiDropzoneArea-text, .MuiDropzoneArea-icon {
+  color: rgb(233, 10, 10) !important;
+}

@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 // import woman image
-import YogaSidePose from '../assets/img/side1.jpg';
+import YogaSidePose from '../assets/img/side 2.jpg';
 
 const Hero = () => {
   return (
@@ -13,16 +14,25 @@ const Hero = () => {
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
             <p className='text-lg text-accent text-md mb-[22px]'>
-              Hey, I'm Jane! 👋
+              {/* Hey, we are a team 👋 */}
             </p>
             <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
               Yoga Poses detection &<br /> Classification.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              This website detects which yoga pose you are doing and with how much accuracy, it detects and tell which pose are you doing.
+            As a part of our project, we have developed YogaNet web application that can accurately detect which yoga pose you are doing and with how much accuracy. 
             </p>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Detect Poses
+            <button  className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all' >
+            <Link
+                to='uploadImage'
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className='transition-all duration-300'
+              >
+              Classify Poses
+              </Link>
             </button>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
