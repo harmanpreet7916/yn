@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import img
-import Image from '../assets/img/about.webp';
+import Image from '../assets/img/yoga bg2.jpg';
 
 const About = () => {
   return (
@@ -16,10 +16,10 @@ const About = () => {
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
             <div className='flex flex-col'>
               <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block'>
-                Jane Doe
+                Yoga Net
               </h2>
               <p className='mb-4 text-accent'>
-                Freelance Frontend Web Developer
+                Detect and classify yoga poses
               </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
@@ -33,7 +33,7 @@ const About = () => {
               </p>
             </div>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              Contact me
+              Download app
             </button>
           </div>
         </div>

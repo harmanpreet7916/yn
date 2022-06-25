@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import woman image
-import WomanImg from '../assets/img/banner-woman2.webp';
+import YogaSidePose from '../assets/img/side1.jpg';
 
 const Hero = () => {
   return (
@@ -16,18 +16,17 @@ const Hero = () => {
               Hey, I'm Jane! 👋
             </p>
             <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-              I Build & Design <br /> Web Interfaces.
+              Yoga Poses detection &<br /> Classification.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-              dolor elit.
+              This website detects which yoga pose you are doing and with how much accuracy, it detects and tell which pose are you doing.
             </p>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Work with me
+              Detect Poses
             </button>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={WomanImg} alt='' />
+            <img src={YogaSidePose} alt='' />
           </div>
         </div>
       </div>

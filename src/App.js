@@ -12,19 +12,19 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import BackTopBtn from './components/BackTopBtn';
-
+ 
 const App = () => {
   return (
     <div className='bg-white relative'>
       <Header />
       <Hero />
-      <Brands />
+      {/* <Brands /> */}
       <About />
       <Skills />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Services />
       <Testimonials />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
       <BackTopBtn />
     </div>

@@ -35,12 +35,12 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg8 from './assets/img/skills/python.svg';
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import TestiImage1 from './assets/img/testimonials/testimonial-1.jpg';
+import TestiImage2 from './assets/img/testimonials/testimonial-2.jpg';
+import TestiImage3 from './assets/img/testimonials/testimonial-3.jpg';
 
 // navigation
 export const navigation = [
@@ -57,12 +57,12 @@ export const navigation = [
     href: 'portfolio',
   },
   {
-    name: 'services',
-    href: 'services',
+    name: 'features',
+    href: 'features',
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
+    name: 'team',
+    href: 'team',
   },
   {
     name: 'contact',
@@ -72,46 +72,46 @@ export const navigation = [
 
 // social
 export const social = [
-  {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
-  },
-  {
-    icon: <FiGithub />,
-    href: '',
-  },
-  {
-    icon: <FiDribbble />,
-    href: '',
-  },
+  // {
+  //   icon: <FiYoutube />,
+  //   href: '',
+  // },
+  // {
+  //   icon: <FiInstagram />,
+  //   href: '',
+  // },
+  // {
+  //   icon: <FiGithub />,
+  //   href: '',
+  // },
+  // {
+  //   icon: <FiDribbble />,
+  //   href: '',
+  // },
 ];
 
 // companies
 export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
+  // {
+  //   img: FreelancerBrandIcon,
+  //   href: '',
+  // },
+  // {
+  //   img: UpworkBrandIcon,
+  //   href: '',
+  // },
+  // {
+  //   img: FiverBrandIcon,
+  //   href: '',
+  // },
+  // {
+  //   img: BehanceBrandIcon,
+  //   href: '',
+  // },
+  // {
+  //   img: DribbbleBrandIcon,
+  //   href: '',
+  // },
 ];
 
 // projects
@@ -202,25 +202,25 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Fast Detection',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: 'High Accuracy',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Easy Use',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Multiple Poses',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
@@ -232,22 +232,22 @@ export const testimonials = [
     authorImg: TestiImage1,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'Harmanpreet Singh',
+    authorPosition: 'Web Developer',
   },
   {
     authorImg: TestiImage2,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'Harsh vardhan',
+    authorPosition: 'AI/ML Devloper',
   },
   {
     authorImg: TestiImage3,
     authorText:
       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorName: 'Keshav Kumar',
+    authorPosition: 'App Developer',
   },
 ];
 
