@@ -16,30 +16,32 @@ const Header = () => {
   });
 
   return (
-    <header
-      className={`${
-        bg ? 'bg-tertiary h-20' : 'h-24'
-      } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}
-    >
-      <div  className='container mx-auto h-full flex items-center justify-between'>
-        {/* logo */}
-        <a href='#'>
-          <img src={Logo} alt='' />
-        </a>
-        {/* nav */}
-        <div className='hidden lg:block'>
-          <Nav />
+    <div className='flex justify-center'>
+
+      <header
+        className={`${bg ? 'bg-tertiary h-20' : 'h-24'
+          } flex items-center fixed top-0 w-screen text-white z-10 transition-all duration-300`}
+      >
+        <div className='container mx-auto h-full flex items-center justify-between'>
+          {/* logo */}
+          <a href='/'>
+            <img src={Logo} alt='' />
+          </a>
+          {/* nav */}
+          <div className='hidden lg:block'>
+            <Nav />
+          </div>
+          {/* Socials */}
+          <div className='hidden lg:block'>
+            <Socials />
+          </div>
+          {/* nav mobile*/}
+          <div className='lg:hidden'>
+            <NavMobile />
+          </div>
         </div>
-        {/* Socials */}
-        <div className='hidden lg:block'>
-          <Socials />
-        </div>
-        {/* nav mobile*/}
-        <div className='lg:hidden'>
-          <NavMobile />
-        </div>
-      </div>
-    </header>
+      </header>
+    </div>
   );
 };
 

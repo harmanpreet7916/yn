@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 
 // import img
 import Image from '../assets/img/yoga bg1.png';

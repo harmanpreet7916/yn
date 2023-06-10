@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import BackTopBtn from './components/BackTopBtn';
 import { ImageUpload } from "./home.js";
- 
+
 const App = () => {
   return (
     <div className='bg-white relative'>

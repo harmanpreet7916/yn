@@ -74,7 +74,7 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Computer science student at NIT Hamirpur, love to explore new technologies.  ',
+      'Open source enthusiast, love to explore new technologies.',
     authorName: 'Harmanpreet Singh',
     authorPosition: 'Web Developer',
   },

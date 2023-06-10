@@ -29,13 +29,13 @@ const Hero = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className='transition-all duration-300'
+                className='transition-all text-white duration-300'
               >
               Classify Poses
               </Link>
             </button>
           </div>
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
+          <div className='hidden lg:flex flex-1 justify-end items-end h-full mt-10'>
             <img src={YogaSidePose} alt='' />
           </div>
         </div>

@@ -59,7 +59,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     height: "90vh",
-    marginTop: "8px",
+    marginTop: "-8px",
+    overflow: "hidden",
   },
   imageCard: {
     margin: "auto",
