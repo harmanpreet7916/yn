@@ -225,6 +225,7 @@ export const ImageUpload = () => {
               </CardActionArea>
               }
               {!image && <CardContent id = "drogBoxText" className={classes.content}>
+                <p>API is not working </p>
                 <DropzoneArea
                   acceptedFiles={['image/*']}
                   dropzoneText={"Please Drag and drop an image of yoga pose to classify"}
